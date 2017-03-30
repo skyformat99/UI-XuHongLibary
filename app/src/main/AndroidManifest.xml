@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.xuhong.ui_xuhonglibary">
+
+    <!-- 读内存卡权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_me"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LineChartActivity.DoubleLineCharActivity" />
+        <activity android:name=".LineChartActivity.LineChartActivity" />
+        <activity android:name=".BarChartActivity.BarChartActivity" />
+        <activity android:name=".RedDointActivity.RedDointActivity" />
+        <activity android:name=".SimplicityRedDointActivity.SimplicityRedDointActivity" />
+        <activity android:name=".RadarViewActivity.RadarViewActivity" />
+        <activity android:name=".PullActivity.PullToZoomScrollActivity" />
+        <activity android:name=".TwitterCoverListView.TwitterCoverListViewActivity" />
+        <activity android:name=".SwipeRefreshAcitvity.SwipeFreshActivity" />
+        <activity android:name=".RippleActivity.RippleActivity" />
+        <activity android:name=".NewCreditSesameViewActicity.NewCreditSesameViewActivity" />
+        <activity android:name=".NewCreditSesameViewActicity.OldCreditSesameViewActivity"></activity>
+    </application>
+
+</manifest>
