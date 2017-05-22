@@ -21,7 +21,7 @@
          
 >传送门：[博客详细讲解雷达涟漪效果](http://blog.csdn.net/xh870189248/article/details/64121808)
 
-#####三.强大的MPChart绘图，如图：
+#####三.强大的MPChart绘图，如下图：
 
  ![Chart](sceenGif/Chart.gif)
 
